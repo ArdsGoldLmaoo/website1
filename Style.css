@@ -1,0 +1,191 @@
+@font-face {
+  font-family: websiteFont;
+  src: url(font.ttf);
+}
+div{
+  font-family: websiteFont;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,h2{display: inline;
+  float: right;
+  font-family: websiteFont;
+  letter-spacing: 2px;
+  font-size: 3em;
+  line-height: 0.25;
+  }
+h3,h4{display: inline;
+    position: absolute;
+    float: right;
+    color: #989898;
+    font-family: websiteFont;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    line-height: 0.125;
+    }
+img.logosize {
+  height: 8%;
+  width: 8%;
+  object-fit: cover;
+}
+.toppage{
+    background-color: #000000;
+    height:60px;
+}
+.headertexts:hover{
+  text-decoration: none;
+  color: gray;
+  animation-name:texthover;
+  animation-timing-function: ease-out;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+@keyframes texthover {
+  0%,75% {
+    color:gray;
+  }75%,100%{
+    color: red;
+  }
+
+}
+div.screen1div {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background:
+}
+
+iframe {
+    display: inline;
+    border-style:none;
+    margin: 0 auto;
+    border:3px solid black;
+}
+
+.screen1{
+  background: url('bg/bg_1.jpg') center/cover no-repeat fixed;
+  width: 100%;
+  height: 80vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+img.TakeBackYourFutureClass{
+  position:relative;
+  bottom: 3vh;
+  left: 9.5vh;
+}
+.screen2paragraph{
+  color: white;
+  font-size: 250%;
+  text-align:center;
+  margin: 50px;
+
+}
+.screen3paragraph{
+  text-align: right;
+  right: 100vh;
+}
+.videoPosition{
+  position:relative;
+  top: 20vh;
+  left:45vh;
+}
+.screen2{
+  background: #000000 center/cover no-repeat fixed;
+  width: 100%;
+  height: 90vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen3{
+  background: url('bg/bg_2.jpg') center/cover no-repeat fixed;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.screen4{
+  background: #000000 center/cover no-repeat fixed;
+  width: 100%;
+  height: 330vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.screen5{
+  background: url('bg/bg_3.png') center/cover no-repeat fixed;
+  width: 100%;
+  height: 112.5vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.dlc1div{
+  background: #000000 center/cover no-repeat fixed;
+  position:absolute;
+  left:17vh;
+  width: 20%;
+  height: 75vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.dlc2div{
+  background: #000000 center/cover no-repeat fixed;
+  position: absolute;
+  width: 20%;
+  height: 75vh;
+  display: block;
+  margin-left: 40%;
+}
+.dlc3div{
+  background: #000000 center/cover no-repeat fixed;
+    position:absolute;
+    left:150vh;
+  width: 20%;
+  height: 75vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen6{
+  background: #000000 center/cover no-repeat fixed;
+  width: 100%;
+  height: 17.5vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.dlctext{
+  font-size:2em;
+  color: white;
+  text-align:center;
+}
+
+button{
+  background: red;
+  color: white;
+  padding: 1px 32px;
+  text-align: center;
+  display: inline-block;
+  font-family: websiteFont;
+  letter-spacing: 2px;
+  font-size: 3em;
+  border:none;
+}
